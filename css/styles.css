@@ -106,12 +106,12 @@ h1 {
     border-radius: 50px;
     text-decoration: none;
     transition: all 0.3s ease;
-    box-shadow: 0 10px 20px rgba(0, 184, 148, 0.3);
+    box-shadow: 0 10px 20px rgba(149, 53, 223, 0.3);
 }
 
 .guide-button:hover {
     transform: scale(1.06);
-    box-shadow: 0 15px 25px rgba(0, 184, 148, 0.4);
+    box-shadow: 0 15px 25px rgba(149, 53, 223, 0.4);
 }
 
 .header-image {
