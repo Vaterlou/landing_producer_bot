@@ -95,6 +95,25 @@ h1 {
     box-shadow: 0 15px 25px rgba(0, 184, 148, 0.4);
 }
 
+.guide-button {
+    margin-right: 10px;
+    display: inline-block;
+    background-color: var(--primary-dark);
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 16px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 184, 148, 0.3);
+}
+
+.guide-button:hover {
+    transform: scale(1.06);
+    box-shadow: 0 15px 25px rgba(0, 184, 148, 0.4);
+}
+
 .header-image {
     margin-top: 60px;
     position: relative;
