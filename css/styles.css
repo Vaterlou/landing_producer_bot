@@ -558,6 +558,10 @@ footer {
     .section {
         padding: 60px 0;
     }
+
+    .guide-button {
+        margin-bottom: 10px;
+    }
     
     .section-title {
         font-size: 2rem;
