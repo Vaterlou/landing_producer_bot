@@ -704,3 +704,10 @@ color: var(--dark);
     margin-bottom: 12px;
     font-weight: bold;
 }
+
+.social-proof {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.9;
+}
