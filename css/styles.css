@@ -264,7 +264,6 @@ header {
 }
 
 .step {
-    display: flex;
     align-items: center;
     gap: 1rem;
     background: rgba(255, 255, 255, 0.9);
@@ -291,6 +290,8 @@ header {
   }
 
 .number {
+    position: relative;
+    top: 48px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -337,6 +338,13 @@ footer {
         color: var(--orange);
         font-size: 3.2rem;
         font-weight: 900;
+    }
+
+    .number {
+        position: relative;
+        top: 42px;
+        width: 25px;
+        height: 25px;
     }
 
     .tagline-staggered .line-1,
