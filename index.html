@@ -193,7 +193,10 @@
             star.style.width = `${size}px`;
             star.style.height = `${size}px`;
             star.style.position = "absolute";
-            star.style.animation = `fall ${duration}s linear ${delay}s forwards`;
+            star.style.animation = `
+            fall ${duration}s linear ${delay}s forwards,
+            flicker 1.5s ease-in-out infinite
+            `;
         
             container.appendChild(star);
         
